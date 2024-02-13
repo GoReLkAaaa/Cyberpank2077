@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About</title>
+  <link rel="stylesheet" href="{% static 'css/about.css' %}">
+</head>
+<body>
+<main>
+<div class="poloska">
+  <img src="{% static 'img/poloska_2.png' %}">
+</div>
+<div class="slide_1">
+  <div class="napolnenie">
+    <div class="kar_1">
+  <img src="{% static 'img/komp.png' %}">
+    </div>
+    <div class="kar_2">
+  <img src="{% static 'img/Group.png' %}">
+    </div>
+    <div class="opisanie">
+      <div>
+        <span>Полное погружение вместе с HP</span>
+      </div>
+      <div>
+        <p>Погрузись в современные экшен-игры с реалистичным изображением с помощью монитора с диагональю 23,8 дюйма, созданном для отображения максимально насыщенных цветов. Успевай реагировать на любые события с временем отклика 1 мс и частотой в 144 Гц!</p>
+      </div>
+      <div class="burger">
+        <div class="burger_1">
+        <img src="{% static 'img/color_lens.png' %}">
+        <p>Яркие насыщенные цвета</p>
+        </div>
+        <div class="burger_2">
+        <img src="{% static 'img/auto_awesome.png' %}">
+        <p>Кристальная четкость изображения</p>
+        </div>
+        <div class="burger_3">
+        <img src="{% static 'img/auto_awesome_motion.png' %}">
+        <p>Быстрые движения и плавный геймплей</p>
+        </div>
+                    <div class="podrobno">
+                <a href="#slide_2">Подробнее</a>
+            </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <div class="slide_2" id="slide_2">
+    <div class="kartinka">
+      <img src="{% static 'img/Untitled.jpg' %}">
+    </div>
+    <div class="napolnenie_2">
+      <div class="h1">
+      <h1>Купить игру Cyberpunk 2077</h1>
+      </div>
+      <div>
+        <span>В комплект входит:</span>
+      </div>
+            <div class="burger_vtoroy">
+        <div class="burger_11">
+        <img src="{% static 'img/Subtract.svg' %}">
+        <p>Футляр с игровыми дисками</p>
+        </div>
+        <div class="burger_22">
+        <img src="{% static 'img/dve_poloski.svg' %}">
+        <p>Футляр с кодом для загрузки игры и дисками (pc)</p>
+        </div>
+        <div class="burger_33">
+        <img src="{% static 'img/Vector.svg' %}">
+        <p>Справочник с информацией об игровом мире</p>
+        </div>
+            </div>
+      <div class="pp">
+        <p>Выберите платформу:</p>
+      </div>
+      <div class="kartinki_dr">
+        <div class="pervaya">
+          <img src="{% static 'img/Pc.svg' %}">
+          <img src="{% static 'img/xbox.svg' %}">
+        </div>
+        <div class="vtoraya">
+          <img src="{% static 'img/stadia.svg' %}">
+          <img src="{% static 'img/Playstation.svg' %}">
+        </div>
+      </div>
+    </div>
+         <div class="footer">
+        <div class="im">
+        <img src="{% static 'img/Cyberpunk_2077.svg' %}">
+            <img src="{% static 'img/CD_Projekt_logo.svg' %}">
+        </div>
+        <div class="nav">
+            <a href="{% url 'index' %}">Home</a>
+            <a href="{% url 'contacts' %}">Contacts</a>
+        </div>
+                <div class="poloska">
+                    <p>CD PROJEKT®, Cyberpunk®, Cyberpunk 2077®</p>
+                </div>
+    </div>
+  </div>
+</main>
+</body>
+</html>

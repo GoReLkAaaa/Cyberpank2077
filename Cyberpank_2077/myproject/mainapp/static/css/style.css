@@ -1,0 +1,180 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /*outline: 1px solid red;*/
+}
+
+.logo{
+    top: 20px;
+    min-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    position: absolute;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    text-decoration: none;
+    color: black;
+  font-family: "Protest Strike", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+.nav a{
+    margin: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.im{
+    width: 296px;
+    display: flex;
+    justify-content: start;
+}
+
+main {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.back img {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.reqtangle{
+    position: absolute;
+    background-color: #F8F200;
+    clip-path: polygon(10% 0, 100% 0, 100% 83%, 90% 100%, 0 100%, 0 17%);
+    width: 524px;
+    height: 269px;
+    max-width: 524px;
+    max-height: 269px;
+    top: 434.5px;
+    left: 880px;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    top: 20px;
+    margin: 20px;
+}
+
+.text span{
+    color: black;
+    font-family: Consolas;
+    font-size: 50px;
+}
+
+.podrobno{
+    background-color: black;
+    width: 230px;
+    height: 78px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.podrobno a{
+        font-family: Consolas;
+    font-weight: 400;
+    font-size: 24px;
+    color: #F8F200;
+    text-decoration: none;
+}
+
+.slide_2{
+    height: 777px;
+    display: flex;
+    flex-flow: column;
+    justify-content: start;
+    align-items: center;
+    align-content:center ;
+}
+
+.slide_2 h1{
+    top: 50px;
+    right: 100px;
+    position: relative;
+    font-family: Consolas;
+    font-size: 52px;
+}
+
+.text_2{
+    max-width: 800px;
+        font-family: Consolas;
+    font-size: 18px;
+}
+
+.text_2 p{
+    color: #777777;
+    top: 90px;
+    right: 155px;
+    position: relative;
+}
+
+.text_2 span{
+    color: #52BEDC;
+}
+
+.kartinki{
+    display: flex;
+    justify-content: center;
+}
+
+.reqtangle_61{
+    position: absolute;
+    left: 700px;
+     top: 1000px;
+}
+
+.reqtangle_62{
+    position: absolute;
+    right: 855px;
+    top: 1000px;
+}
+
+.reqtangle_63{
+    position: absolute;
+    right: 855px;
+     top: 1228px;
+}
+.footer{
+        min-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    position: absolute;
+}
+
+.footer img{
+    margin: 20px;
+}
+
+.poloska{
+    background-color: black;
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.poloska p{
+    color: white;
+            font-family: Consolas;
+    font-size: 10px;
+}

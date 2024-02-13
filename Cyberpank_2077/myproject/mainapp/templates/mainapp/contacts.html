@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacts</title>
+    <link rel="stylesheet" href="{% static 'css/contacts.css' %}">
+</head>
+<body>
+<main>
+<div class="contacts">
+    <div class="najalo">
+        <img src="{% static 'img/aksia.svg' %}">
+        <h1>Играй и выигрывай!</h1>
+    </div>
+    <div class="text">
+        <p>Играй в Cyberpunk 2077 и получи возможность выиграть консоль Xbox Series X или Sony PlayStation 5! Заполни форму ниже и приложи скриншот о покупке игры. Итоги розыгрыша будут подведены 1 февраля. Удачи! ;)</p>
+    </div>
+    <div class="form">
+        <input type="text" placeholder="Как тебя зовут?">
+        <input type="email" placeholder="Твой е-mail">
+    </div>
+    <div class="podrobno">
+    <a href="{% url 'index' %}">Отправить</a>
+    </div>
+        <input type="checkbox" class="checkbox"> <label>Согласен на обработку персональных данных</label>
+    <div class="sloy">
+        <img src="{% static 'img/Layer_jelt.svg' %}">
+        <img src="{% static 'img/Layer_sin.svg' %}">
+        <div class="sloy_2">
+            <img src="{% static 'img/Layer_xbox.svg' %}">
+            <div class="sloy_3">
+            <img src="{% static 'img/Layer_play.svg' %}">
+            </div>
+        </div>
+    </div>
+             <div class="footer">
+        <div class="im">
+        <img src="{% static 'img/Cyberpunk_2077.svg' %}">
+            <img src="{% static 'img/CD_Projekt_logo.svg' %}">
+        </div>
+        <div class="nav">
+            <a href="{% url 'index' %}">Home</a>
+            <a href="{% url 'about' %}">About</a>
+        </div>
+                <div class="poloska">
+                    <p>CD PROJEKT®, Cyberpunk®, Cyberpunk 2077®</p>
+                </div>
+    </div>
+</div>
+</main>
+</body>
+</html>

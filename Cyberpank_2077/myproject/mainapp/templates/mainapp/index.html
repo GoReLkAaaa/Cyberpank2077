@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cyberpunk 2077</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <div class="logo">
+        <div class="im">
+        <img src="{% static 'img/Cyberpunk_2077.svg' %}">
+        </div>
+        <div class="nav">
+            <a href="{% url 'contacts' %}">Contacts</a>
+        </div>
+    </div>
+</header>
+<main>
+    <div>
+        <div class="back">
+        <img src="{% static 'img/glavnaya.jpg' %}">
+        <div class="reqtangle">
+            <div class="text">
+                <span>Доступно на всех платформах</span>
+            </div>
+            <div class="podrobno">
+                <a href="{% url 'about' %}">Узнать больше</a>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="slide_2">
+        <h1>Найт-Сити изменит тебя навсегда!</h1>
+        <div class="text_2">
+            <p><span>Cyberpunk 2077</span> — приключенческая ролевая игра, действие которой происходит в мегаполисе Найт-Сити, где власть, роскошь и модификации тела ценятся выше всего. Ты играешь за V, наёмника в поисках устройства, позволяющего обрести бессмертие. Ты сможешь менять киберимпланты, навыки и стиль игры своего персонажа, исследуя открытый мир, где твои поступки влияют на ход сюжета и всё, что тебя окружает.</p>
+        </div>
+    <div class="kartinki">
+    <div class="reqtangle_61"><img src="{% static 'img/Rectangle_61.png' %}"></div>
+    <div class="reqtangle_62"><img src="{% static 'img/Rectangle_62.png' %}"></div>
+    <div class="reqtangle_63"><img src="{% static 'img/Rectangle_63.png' %}"></div>
+    </div>
+    </div>
+    <div>
+        <img src="{% static 'img/poloska.png' %}">
+            <div class="footer">
+        <div class="im">
+        <img src="{% static 'img/Cyberpunk_2077.svg' %}">
+            <img src="{% static 'img/CD_Projekt_logo.svg' %}">
+        </div>
+        <div class="nav">
+            <a href="{% url 'contacts' %}">Contacts</a>
+        </div>
+                <div class="poloska">
+                    <p>CD PROJEKT®, Cyberpunk®, Cyberpunk 2077®</p>
+                </div>
+    </div>
+    </div>
+</main>
+</body>
+</html>
